@@ -1,7 +1,7 @@
 class Person {
   constructor(firstName, lastName, dob) {
     this.firstName = firstName;
-    this.lastName = lastName;
+    this.lastName= lastName;
     this.birthday = new Date(dob);
   }
 
@@ -24,10 +24,10 @@ class Person {
   }
 }
 
-const mary = new Person('Mary', 'Williams', '11-13-1980');
+const mary = new Person('Mary', 'Jane', '04-20-1990');
 
-mary.getsMarried('Thompson');
+mary.getsMarried('Thompson')
 
 console.log(mary);
 
-console.log(Person.addNumbers(1,2));
+console.log(Person.addNumbers(1,1));

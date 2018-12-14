@@ -26,7 +26,7 @@ Person.prototype.getFullName = function(){
 }
 
 // Gets Married
-Person.prototype.getsMaried = function(newLastName){
+Person.prototype.getsMarried = function(newLastName){
   this.lastName = newLastName;
 }
 
@@ -39,7 +39,7 @@ console.log(john.calculateAge());
 
 console.log(mary.getFullName());
 
-mary.getsMaried('Smith');
+mary.getsMarried('Smith');
 
 console.log(mary.getFullName());
 

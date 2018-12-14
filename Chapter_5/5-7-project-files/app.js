@@ -9,15 +9,17 @@ class Person {
   }
 }
 
+
+
 class Customer extends Person {
-  constructor(firstName, lastName, phone, membership) {
+  constructor(firstName, lastName, phone, memebership) {
     super(firstName, lastName);
 
     this.phone = phone;
-    this.membership = membership;
+    this.memebership = memebership;
   }
 
-  static getMembershipCost() {
+  static getMemebershipCost() {
     return 500;
   }
 }
@@ -26,4 +28,4 @@ const john = new Customer('John', 'Doe', '555-555-5555', 'Standard');
 
 console.log(john.greeting());
 
-console.log(Customer.getMembershipCost());
+console.log(Customer.getMemebershipCost());

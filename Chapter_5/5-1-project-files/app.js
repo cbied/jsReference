@@ -15,5 +15,5 @@ function Person(name, dob) {
 
 // console.log(john.age);
 
-const brad = new Person('Brad', '9-10-1981');
+const brad = new Person('Brad', '9-10-1991');
 console.log(brad.calculateAge());
